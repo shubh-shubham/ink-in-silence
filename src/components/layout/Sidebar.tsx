@@ -45,7 +45,7 @@ export default function Sidebar() {
       </div>
 
       {/* Navigation */}
-      <div className="mt-20 flex flex-col gap-8">
+      <div className="mt-20 flex flex-col gap-10">
         {menuItems.map((item) => {
           const Icon = item.icon;
 

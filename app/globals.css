@@ -34,3 +34,18 @@ h4 {
 ::selection {
   background: rgba(255,255,255,0.15);
 }
+
+@keyframes slowZoom {
+
+  from {
+
+    transform: scale(1.05);
+
+  }
+
+  to {
+
+    transform: scale(1.15);
+
+  }
+}
